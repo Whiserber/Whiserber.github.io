@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../src/css/normalize.css">
+    <link rel="stylesheet" href="../../src/css/normalize.css">
     <!--Set Theme--> 
     <title>Love Live Posting</title>
     <script>
@@ -27,12 +27,12 @@
     <header>
         <a href="../../index.html" class="logo"><span>LLP!</span></a>
         <ul class="navbar">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../muse/index.html">µ's </a></li>
-            <li><a href="../aqours/index.html">Aqours</a></li>
-            <li><a href="../nijigasaki/index.html">Nijigasaki</a></li>
-            <li><a href="../liella/index.html">Liella</a></li>
-            <li><a href="../acercade">Acerca De</a></li>
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../muse/index.html">µ's </a></li>
+            <li><a href="../../aqours/index.html" class="active">Aqours</a></li>
+            <li><a href="../../nijigasaki/index.html">Nijigasaki</a></li>
+            <li><a href="../../liella/index.html">Liella</a></li>
+            <li><a href="../../acercade">Acerca De</a></li>
         </ul>
 
         <div class="theme-changer">
@@ -52,7 +52,7 @@
     <!--MAIN-->
     <main>
         <div class="video-container">
-            <h1>LoveLive! Series 9th Anniversary Love Live! Fest Blu-ray</h1>
+            <h1>Aqours 5th LoveLive! ~Next SPARKLING!!~ Blu-ray</h1>
             <div class="video-buttons">
                 <select name="select_server" id="select_server">
                     <option value="S1">Servidor 1</option>
@@ -60,29 +60,40 @@
                     <option value="S3">Servidor 3</option>
                 </select>
                 <select name="select_day" id="select_day">
-                    <option value="D1">Día 1</option>
-                    <!--<option value="D2">Día 2</option>-->
+                    <!--<option value="D1">Día 1</option>-->
+                    <option value="D2">Día 2</option>
                 </select>
                 <select name="select_part" id="select_part">
                     <option value="P1">Parte 1</option>
                     <option value="P2">Parte 2</option>
+                    <!--<option value="DDE">Detrás de Escenas</option>-->
                 </select>
             </div>
             <div class="video-wrapper">
                 <iframe id="video_iframe"  frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="640" height="360" allowfullscreen></iframe>
             </div>
 
+            <p>Si deseas comprar este blu-ray puedes hacerlo a través de los siguientes enlaces.</p>
+            <div class="compra-container">
+                <a href="https://www.amazon.co.jp/s?k=%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88+%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%B3%E3%82%B0&i=dvd&ref=nb_sb_noss" target="_blank">
+                    <img src="src/img/Amazon.co.jp.png" >
+                </a>
+                <a href="https://www.cdjapan.co.jp/product/LABX-38390" target="_blank">
+                    <img src="src/img/logo_cdj.png">
+                </a>
+            </div>
+
             <h2>Descargas</h2>
             <div class="descargas-container">
-                <a href="" target="_blank" class="descargas">Gofile</a>
+                <a href="c" target="_blank" class="descargas">Gofile</a>
                 <a href="" target="_blank" class="descargas">Torrent</a>
             </div>
 
         </div>
     </main>
     
-    <script src="src/js/fest.js"></script>
+    <script src="src/js/nextsparkling.js"></script>
 
-    <script type="text/javascript" src="../src/js/theme.js" defer></script>
+    <script type="text/javascript" src="../../src/js/theme.js" defer></script>
 </body>
 </html>
