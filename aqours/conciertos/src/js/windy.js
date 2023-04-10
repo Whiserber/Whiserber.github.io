@@ -26,7 +26,7 @@ function updateVideo(){
             }
             else
             {
-                videoIframe.src = "https://filemoon.sx/e/4jdyg83hddsa/Making_Of_Aqours_6th_Lovelive!__Ku-Ru-Ku-Ru_Rock__N__Roll_Tour___Ocean_Stage___SubEsp_";
+                videoIframe.src = "https://filemoon.sx/e/umgvlyu82v7w/Making_of_Aqours_6th_Lovelive!__Ku-Ru-Ku-Ru_Rock__N__Roll_Tour___Windy_Stage_";
             }
         }
         else
@@ -41,7 +41,7 @@ function updateVideo(){
             }
             else
             {
-                videoIframe.src = "https://filemoon.sx/e/4jdyg83hddsa/Making_Of_Aqours_6th_Lovelive!__Ku-Ru-Ku-Ru_Rock__N__Roll_Tour___Ocean_Stage___SubEsp_";
+                videoIframe.src = "https://filemoon.sx/e/umgvlyu82v7w/Making_of_Aqours_6th_Lovelive!__Ku-Ru-Ku-Ru_Rock__N__Roll_Tour___Windy_Stage_";
             }
         }
     }
