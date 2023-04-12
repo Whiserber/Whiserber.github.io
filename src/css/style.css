@@ -303,13 +303,19 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
-    max-width: 400px;
+    max-width: 800px;
     padding: 20px;
     border-radius: 15px;
     background-color: var(--background-color);
     text-align: center;
     box-shadow: 0 0 10px var(--shadow-box-color);
     z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .popup.show {
+    opacity: 1;
   }
   
   .popup-header {
@@ -342,10 +348,10 @@ header{
   }
   
   .popup-body p {
-    padding-top: 10px;
+    font-size: 1.5rem;
+    padding-top: 20px;
   }
 
- 
   
   @media only screen and (max-width: 600px) {
     .popup {
