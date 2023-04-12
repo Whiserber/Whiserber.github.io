@@ -267,9 +267,99 @@ header{
     grid-gap: 20px;
   } 
 
+.acercade {
+    max-width: 80%;
+    margin: 120px auto 10px;
+    align-items: center;
+    text-align: justify;
+}
+
+.acercade h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: var(--hover-text);
+    border: 2px;
+    color: var(--text-group-color);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.acercade p {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.acercade a {
+    color: var(--hover-text);
+}
+
+#card1 {
+    grid-column-start: 2;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--background-color);
+    text-align: center;
+    box-shadow: 0 0 10px var(--shadow-box-color);
+    z-index: 9999;
+  }
+  
+  .popup-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  
+  .bx.bxs-error {
+    position: absolute;
+    font-size: 70px;
+    color: #f00;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  
+  .popup-close-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--text-color);
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .popup-body p {
+    padding-top: 10px;
+  }
+
+ 
+  
+  @media only screen and (max-width: 600px) {
+    .popup {
+      width: 90%;
+      padding: 10px;
+    }
+  }
 
 @media only screen and (max-width: 1200px) {
     .groups-section {
+        margin: 92px auto 10px;
+    }
+
+    .acercade {
         margin: 92px auto 10px;
     }
 }
@@ -281,6 +371,9 @@ header{
     .other-card-container {
         margin: 0 10px 0;
         grid-template-columns: repeat(3, 1fr);
+    }
+    #card1 {
+        grid-column-start: 1;
     }
 }
 
