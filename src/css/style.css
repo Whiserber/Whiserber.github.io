@@ -109,6 +109,7 @@ header P{
 
 .quote{
     display: none;
+    text-align: center;
     max-height: 2rem;
     font-size: 0.4rem;
     padding: 0px 5px 0px;
