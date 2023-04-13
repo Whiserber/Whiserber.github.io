@@ -113,6 +113,7 @@ header P{
     max-height: 2rem;
     font-size: 0.4rem;
     padding: 0px 5px 0px;
+   
     
 }
 @media screen and (min-width: 280px) {
@@ -184,15 +185,17 @@ header P{
 	border: 2px solid var(--text-color);
 	border-radius: 30px;
 	cursor: pointer;
+    z-index: -900;
 }
 .switch > * {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+    
 }
 .switch__ball {
 	left: 1px;
-	z-index: 10;
+	/*z-index: 10;*/
 	display: inline-block;
 	width: 20px;
 	height: 20px;
