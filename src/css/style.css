@@ -48,6 +48,10 @@ header{
     padding: 28px 12%;
     /*transition: all .50s ease;*/
 }
+header P{
+    color: var(--text-color);
+    text-align: center;
+}
 
 .logo{
     display: flex;
@@ -103,6 +107,20 @@ header{
     display: none;
 }
 
+.quote{
+    display: none;
+    max-height: 2rem;
+    font-size: 0.4rem;
+    padding: 0px 5px 0px;
+    
+}
+@media screen and (min-width: 280px) {
+    .quote {
+      font-size: calc(0.4rem + 2 * ((100vw - 150px) / 150)); /* Fórmula para el tamaño de la fuente en pantallas grandes */
+    }
+  }
+
+
 @media (max-width: 1200px){
     header{
         padding: 14px 2%;
@@ -117,6 +135,7 @@ header{
 @media (max-width: 768px){
     #menu-icon{
         display: block;
+        padding-left: 5px;
     }
     .navbar{
         position: absolute;
@@ -144,6 +163,11 @@ header{
     .navbar a:hover{
         color: var(--hover-text);
     }
+    .quote{
+        display: block;
+    }
+
+
 
 }
 
@@ -185,6 +209,11 @@ header{
 	transform: translate(29px, -50%);
 }
 
+/*@media (max-width: 426px){
+    .quote{
+        font-size: 0.6rem;
+    }
+}*/
 /* FIN NAVBAR */
 
 
