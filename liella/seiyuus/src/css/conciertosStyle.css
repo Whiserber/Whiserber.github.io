@@ -140,7 +140,6 @@ header P{
 @media (max-width: 800px){
     #menu-icon{
         display: block;
-        padding-left: 5px;
     }
     .navbar{
         position: absolute;
