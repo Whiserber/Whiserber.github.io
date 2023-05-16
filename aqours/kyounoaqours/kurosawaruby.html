@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="../../src/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../src/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../src/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../src/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../../src/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS link -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../src/css/normalize.css">
+    <link rel="stylesheet" href="../../src/css/conciertosStyle.css">
+    <!--Set Theme--> 
+    <title>Love Live Posting</title>
+    <script>
+        // Render blocking JS:
+        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
+    </script>
+    
+</head>
+<body>
+    <!--  NAVBAR  -->
+    <header>
+        <a href="../../index" class="logo"><img src="../../src/img/Logo.png" height="34px" width="76px"></a>
+        <p id="quote" class="quote""></p>
+        <ul class="navbar">
+            <li><a href="../../index">Inicio</a></li>
+            <li><a href="../../muse/index">µ's </a></li>
+            <li><a href="../../aqours/index" class="active">Aqours</a></li>
+            <li><a href="../../nijigasaki/index">Nijigasaki</a></li>
+            <li><a href="../../liella/index">Liella</a></li>
+            <li><a href="../../acercade">Acerca De</a></li>
+        </ul>
+
+        <div class="theme-changer">
+            <label role="button" for="checkbox" class="switch">
+                <input type="checkbox" id="checkbox" />
+                <span class="switch__ball"></span>
+                <i class='bx bx-sun' ></i>
+                <i class='bx bx-moon' ></i>
+            </label>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+    <!--Navbar js link-->
+    <script type="text/javascript" src="../../src/js/navbar.js"></script>
+    <script type="text/javascript" src="../../src/js/quote.js"></script>
+    <!--  NAVBAR  -->
+
+    <!--MAIN-->
+    <main>
+        <div class="video-container">
+            <h1>Kyou no Aqours - Kurosawa Ruby</h1>
+            <div class="video-buttons">
+                <select name="select_server" id="select_server">
+                    <option value="S2">Servidor 2</option>
+                    <option value="S3">Servidor 3</option>
+                </select>
+            </div>
+            <div class="video-wrapper">
+                <iframe id="video_iframe"  frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="640" height="360" allowfullscreen></iframe>
+            </div>
+
+            <p></p>
+            <p style="margin-bottom: 1px;">Gracias a Koi Snowy por traducir este video.</p>
+            <h2>Descargas</h2>
+            <div class="descargas-container">
+                <a href="" target="_blank" class="descargas">Gofile</a>
+                <a href="" target="_blank" class="descargas">Torrent</a>
+            </div>
+
+        </div>
+    </main>
+    
+    <script src="src/js/kurosawaruby.js"></script>
+
+    <script type="text/javascript" src="../../src/js/theme.js" defer></script>
+</body>
+</html>
