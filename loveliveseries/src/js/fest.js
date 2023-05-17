@@ -25,17 +25,17 @@ function updateVideo(){
                 videoIframe.src = "https://filemoon.sx/e/tlw0mq7cq5y3/_LLP__Love_Live!_Fest_Dia_1_Parte_2";
             }
         }
-        /*else
+        else
         {
             
             if(partValue == "P1"){
-                videoIframe.src = "https://filemoon.sx/e/g2jjp5d7jzs5/Aqours_6th_Lovelive!__Ku-Ru-Ku-Ru_Rock__N__Roll_Tour___Windy_Stage__Dia_2_Parte_1";
+                videoIframe.src = "https://louishide.com/e/e5jwysze5r63";
             }
             else if(partValue == "P2")
             {
-                videoIframe.src = "https://filemoon.sx/e/t4tl8ihhac02/Aqours_6th_Lovelive!__Ku-Ru-Ku-Ru_Rock__N__Roll_Tour___Windy_Stage__Dia_2_Parte_2";
+                videoIframe.src = "https://louishide.com/e/a3hslowlkyes";
             }
-        }*/
+        }
     }
     else if(serverValue == "S2")
     {
@@ -48,17 +48,17 @@ function updateVideo(){
                 videoIframe.src = "https://guccihide.com/e/eiieo25kupbr";
             }
         }
-        /*else
+        else
         {
             
             if(partValue == "P1"){
-                videoIframe.src = "https://guccihide.com/e/b6ejrrxvjldv";
+                videoIframe.src = "https://louishide.com/e/e5jwysze5r63";
             }
             else if(partValue == "P2")
             {
-                videoIframe.src = "https://guccihide.com/e/crv060qsaei0";
+                videoIframe.src = "https://louishide.com/e/a3hslowlkyes";
             }
-        }*/
+        }
     }
     else
     {
@@ -71,17 +71,17 @@ function updateVideo(){
                 videoIframe.src = "https://sbface.com/e/an1963k64h9p.html";
             }
         }
-        /*else
+        else
         {
             
             if(partValue == "P1"){
-                videoIframe.src = "https://sbface.com/e/hlkpylrylny1.html";
+                videoIframe.src = "https://lvturbo.com/e/vlgm45ebxepi";
             }
             else if(partValue == "P2")
             {
-                videoIframe.src = "https://sbface.com/e/ndap8lrakj3b.html";
+                videoIframe.src = "https://lvturbo.com/e/7w5w3z4c4s8l";
             }
-        }*/
+        }
     }
 
     

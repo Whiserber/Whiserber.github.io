@@ -137,7 +137,7 @@ header P{
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 1080px){
     #menu-icon{
         display: block;
     }
@@ -332,7 +332,7 @@ header P{
     transform: scale(1.05);
 }
   
-@media (max-width: 768px){
+@media (max-width: 1080px){
     .video-container {
         max-width: 80%;
       }
