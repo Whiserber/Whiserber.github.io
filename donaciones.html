@@ -1,34 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Lista de donantes de Ko-fi</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="src/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/favicon/favicon-16x16.png">
+    <link rel="manifest" href="src/favicon/site.webmanifest">
+    <link rel="mask-icon" href="src/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <title>Love Live Posting</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS link -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!--Set Theme-->
+    <script>
+        // Render blocking JS:
+        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
+    </script>
+  
 </head>
 <body>
-  <h1>Lista de donantes</h1>
-  <ul id="donor-list"></ul>
+    <!--  NAVBAR  -->
+    <header>
+        <a href="index" class="logo"><img src="src/img/Logo.png" height="34px" width="76px"></a>
+        <p id="quote" class="quote""></p>
+        <ul class="navbar">
+            <li><a href="index" >Inicio</a></li>
+            <li><a href="muse/index">µ's </a></li>
+            <li><a href="aqours/index">Aqours</a></li>
+            <li><a href="nijigasaki/index">Nijigasaki</a></li>
+            <li><a href="liella/index">Liella</a></li>
+            <li><a href="acercade" class="active">Acerca de LLP</a></li>
+            <li><a href="donaciones">Donar</a></li>
+        </ul>
 
-  <script>
-    // Obtén la lista de donantes utilizando la API de Ko-fi
-    const apiKey = 'TU_CLAVE_DE_API';
-    const apiUrl = 'https://api.ko-fi.com/v1/transactions?include_recent_backers=true';
+        <div class="theme-changer">
+            <label role="button" for="checkbox" class="switch">
+                <input type="checkbox" id="checkbox" />
+                <span class="switch__ball"></span>
+                <i class='bx bx-sun' ></i>
+                <i class='bx bx-moon' ></i>
+            </label>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
 
-    fetch(apiUrl, {
-      headers: {
-        'Accept': 'application/vnd.ko-fi.v1+json',
-        'Authorization': `Bearer ${apiKey}`
-      }
-    })
-    .then(response => response.json())
-    .then(data => {
-      // Procesa la respuesta de la API y muestra los donantes en la página web
-      const donorList = document.getElementById('donor-list');
-      data.data.forEach(donor => {
-        const donorItem = document.createElement('li');
-        donorItem.textContent = donor.from_name;
-        donorList.appendChild(donorItem);
-      });
-    })
-    .catch(error => console.error(error));
-  </script>
+       <!--Navbar js link-->
+       <script type="text/javascript" src="src/js/navbar.js"></script>
+       <script type="text/javascript" src="src/js/quote.js"></script>
+       <!--  NAVBAR  -->
+
+    <div class="acercade">
+        
+
+        <h2>Colaboradores</h2>
+        <section class="lovelive-section" style="padding: 0px 0px 0px;">
+            
+            <div class="other-card-container">
+                <a href="https://www.facebook.com/KoiiSnowy"class="card" id="card1"  target="_blank">
+                    <img src="src/img/Koi.jpg" alt="">
+                    <h3>Koi Snowy</h3>
+                </a>
+                <a href="https://www.facebook.com/Kvoth3Nishikino"class="card" target="_blank">
+                    <img src="src/img/kvothe.webp" alt="">
+                    <h3>Kvothe</h3>
+                </a>
+
+            </div>
+        </section>
+
+      </div>
+
+    
+
+ 
+
+ 
+    <script type="text/javascript" src="src/js/theme.js" defer></script>
 </body>
 </html>
