@@ -97,7 +97,7 @@ function updateVideo(){
             }
             else if(partValue == "P2")
             {
-                videoIframe.src = "https://sbface.com/e/e0ls8s857bpf";
+                videoIframe.src = "https://sbrapid.com/e/3paljpycxdft";
             }
             else if(partValue == "P3")
             {
