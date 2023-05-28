@@ -29,11 +29,11 @@ function updateVideo(){
         {
             
             if(partValue == "P1"){
-                videoIframe.src = "";
+                videoIframe.src = "https://filemoon.sx/e/vu1jhgei952o/_LLP_LLESP_Aqours_EXTRA_LoveLive!_2023__It_s_a_Mugendai_WORLD__White_Day_Concert_D_a_2_Parte_1";
             }
             else if(partValue == "P2")
             {
-                videoIframe.src = "";
+                videoIframe.src = "https://filemoon.sx/e/dzpeygpjep6z/_LLP_LLESP_Aqours_EXTRA_LoveLive!_2023__It_s_a_Mugendai_WORLD__White_Day_Concert_D_a_2_Parte_2";
             }
         }
     }
@@ -52,11 +52,11 @@ function updateVideo(){
         {
             
             if(partValue == "P1"){
-                videoIframe.src = "";
+                videoIframe.src = "https://ahvsh.com/e/ef0me72sz122";
             }
             else if(partValue == "P2")
             {
-                videoIframe.src = "";
+                videoIframe.src = "https://ahvsh.com/e/qw8e4ducneim";
             }
         }
     }
@@ -75,11 +75,11 @@ function updateVideo(){
         {
             
             if(partValue == "P1"){
-                videoIframe.src = "";
+                videoIframe.src = "https://sbrapid.com/e/o4mhaabicjou";
             }
             else if(partValue == "P2")
             {
-                videoIframe.src = "";
+                videoIframe.src = "https://sbrapid.com/e/dk5ekut6thka";
             }
         }  
     }
