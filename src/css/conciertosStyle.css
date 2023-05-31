@@ -331,6 +331,10 @@ header P{
 .descargas:hover{
     transform: scale(1.05);
 }
+
+#disqus_thread a {
+    color: var(--hover-text);
+}
   
 @media (max-width: 1080px){
     .video-container {

@@ -3,7 +3,7 @@ var daySelect = document.getElementById('select_day');
 var partSelect = document.getElementById('select_part');
 var videoIframe = document.getElementById('video_iframe');
 
-videoIframe.src = "https://guccihide.com/e/r0tsxus4e1qv";
+videoIframe.src = "https://filemoon.sx/e/rfplkt8buckx";
 
 serverSelect.addEventListener('change', updateVideo);
 daySelect.addEventListener('change', updateVideo);
@@ -38,7 +38,58 @@ function updateVideo(){
     var serverValue = serverSelect.value;
     var dayValue = daySelect.value;
     var partValue = partSelect.value;
-    if(serverValue == "S2")
+    if(serverValue == "S1")
+    {
+        if(dayValue == "D1"){
+            if(partValue == "P1"){
+                videoIframe.src = "https://filemoon.sx/e/rfplkt8buckx";
+            }
+            else if(partValue == "P2")
+            {
+                videoIframe.src = "https://filemoon.sx/e/y7paqgx9pmvm";
+            }
+            else if(partValue == "P3")
+            {
+                videoIframe.src = "https://filemoon.sx/e/fi1yn19lo65m";
+            }
+            else if(partValue == "D1")
+            {
+                videoIframe.src = "https://filemoon.sx/e/8rhm05qee9wh";
+            }
+            else if(partValue == "D2")
+            {
+                videoIframe.src = "https://filemoon.sx/e/9l2286dvv2g2";
+            }
+            else if(partValue == "D3")
+            {
+                videoIframe.src = "https://filemoon.sx/e/ucxuq7pvxe3h";
+            }
+        }
+        else
+        {
+            
+            if(partValue == "P1"){
+                videoIframe.src = "https://filemoon.sx/e/o6v8xgk9e5br";
+            }
+            else if(partValue == "P2")
+            {
+                videoIframe.src = "https://filemoon.sx/e/oam0333cz5cg";
+            }
+            else if(partValue == "D1")
+            {
+                videoIframe.src = "https://filemoon.sx/e/8rhm05qee9wh";
+            }
+            else if(partValue == "D2")
+            {
+                videoIframe.src = "https://filemoon.sx/e/9l2286dvv2g2";
+            }
+            else if(partValue == "D3")
+            {
+                videoIframe.src = "https://filemoon.sx/e/ucxuq7pvxe3h";
+            }
+        }
+    }
+    else if(serverValue == "S2")
     {
         if(dayValue == "D1"){
             if(partValue == "P1"){
