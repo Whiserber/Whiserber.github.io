@@ -34,6 +34,7 @@ function updateSelectPart() {
   }
 
 
+
 function updateVideo(){
     var serverValue = serverSelect.value;
     var dayValue = daySelect.value;
@@ -50,7 +51,7 @@ function updateVideo(){
             }
             else if(partValue == "P3")
             {
-                videoIframe.src = "https://filemoon.sx/e/fi1yn19lo65m";
+                videoIframe.src = "https://filemoon.sx/e/ooxicyffzh7i";
             }
             else if(partValue == "D1")
             {
@@ -101,7 +102,7 @@ function updateVideo(){
             }
             else if(partValue == "P3")
             {
-                videoIframe.src = "https://guccihide.com/e/e7njtwn4fvyy";
+                videoIframe.src = "https://guccihide.com/e/w78g5ie2luj9";
             }
             else if(partValue == "D1")
             {
@@ -152,7 +153,7 @@ function updateVideo(){
             }
             else if(partValue == "P3")
             {
-                videoIframe.src = "https://sbface.com/e/z3w5nnz7hjcm";
+                videoIframe.src = "https://sbface.com/e/q1ju23npjcjg";
             }
             else if(partValue == "D1")
             {

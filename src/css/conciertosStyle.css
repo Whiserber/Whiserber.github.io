@@ -335,6 +335,18 @@ header P{
 #disqus_thread a {
     color: var(--hover-text);
 }
+
+#posts a {
+    color: var(--hover-text);
+}
+
+.sort-menu-refresh__item .selected a{
+    color: var(--hover-text);
+}
+
+.author .publisher-anchor-color a{
+    color: var(--hover-text);
+}
   
 @media (max-width: 1080px){
     .video-container {
