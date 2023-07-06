@@ -1,16 +1,32 @@
-var serverSelect = document.getElementById('select_server');
+//var serverSelect = document.getElementById('select_server');
 var partSelect = document.getElementById('select_part');
 var videoIframe = document.getElementById('video_iframe');
+var source = document.getElementById('ll_test')
+//videoIframe.src = "https://filemoon.sx/e/1bc97s007m38/_LLP_Kvoth3___s_New_Year_LoveLive!_2013_Parte_1";
 
-videoIframe.src = "https://filemoon.sx/e/1bc97s007m38/_LLP_Kvoth3___s_New_Year_LoveLive!_2013_Parte_1";
-
-serverSelect.addEventListener('change', updateVideo);
+//serverSelect.addEventListener('change', updateVideo);
 partSelect.addEventListener('change', updateVideo);
 
 
 function updateVideo(){
-    var serverValue = serverSelect.value;
+    //var serverValue = serverSelect.value;
     var partValue = partSelect.value;
+
+    if(partValue == "P1")
+    {
+        
+        source.setAttribute('src', 'https://streaming.llposting.com/streamable/MuseNewYearLoveLive2013Parte1.mp4');
+    }
+    else if (partValue == "P2")
+    {
+        source.setAttribute('src', 'https://streaming.llposting.com/streamable/MuseNewYearLoveLive2013Parte2.mp4');
+    }
+    else
+    {
+        source.setAttribute('src', 'https://streaming.llposting.com/streamable/MuseNewYearLoveLive2013Parte3.mp4');
+    }
+
+    /*
     if(serverValue == "S1")
     {
         if(partValue == "P1"){
@@ -53,7 +69,7 @@ function updateVideo(){
             videoIframe.src = "https://sbface.com/e/1e02w3mqcdru";
         }
         
-    }
+    }*/
 
     
 }
