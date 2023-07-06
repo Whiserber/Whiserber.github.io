@@ -21,6 +21,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../src/css/normalize.css">
     <link rel="stylesheet" href="../../src/css/conciertosStyle.css">
+    <link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css" rel="stylesheet">
     <!--Set Theme--> 
     <title>Love Live Posting</title>
     <script>
@@ -64,11 +66,11 @@
         <div class="video-container">
             <h1>Aqours 5th LoveLive! ~Next SPARKLING!!~ Blu-ray</h1>
             <div class="video-buttons">
-                <select name="select_server" id="select_server">
+                <!--<select name="select_server" id="select_server">
                     <option value="S1">Servidor 1</option>
                     <option value="S2">Servidor 2</option>
                     <option value="S3">Servidor 3</option>
-                </select>
+                </select>-->
                 <select name="select_day" id="select_day">
 
                     <option value="D2">Día 2</option>
@@ -80,7 +82,27 @@
                 </select>
             </div>
             <div class="video-wrapper">
-                <iframe id="video_iframe"  frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="640" height="360" allowfullscreen></iframe>
+                <!--<iframe id="video_iframe"  frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="640" height="360" allowfullscreen></iframe>-->
+                <video
+                    id="ll_test"
+                    class="video-js vjs-theme-fantasy vjs-16-9"
+                    controls
+                    preload="auto"
+                    width="640"
+                    height="264"
+                    data-setup="{}"
+                >
+                    <source src="https://streaming.llposting.com/streamable/Aqours5thLoveLiveNextSPARKLINGDia2Parte1.mp4" type="video/mp4" />
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a
+                        web browser that
+                        <a href="https://videojs.com/html5-video-support/" target="_blank"
+                        >supports HTML5 video</a
+                        >
+                    </p>
+                </video>
+                <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+
             </div>
 
             <p>Si deseas comprar este blu-ray puedes hacerlo a través de los siguientes enlaces.</p>
