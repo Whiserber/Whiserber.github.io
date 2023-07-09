@@ -21,6 +21,9 @@ function updateVideo(){
         else if(dayValue == "D2"){
             videoIframe.src = "https://filemoon.sx/e/k1vrrw6i9a2g";
         }
+        else if(dayValue == "D3"){
+            videoIframe.src = "https://ahvsh.com/e/mzprybm6jg5a";
+        }
   
     }
     else if(serverValue == "S2")
@@ -32,6 +35,9 @@ function updateVideo(){
         else if(dayValue == "D2"){
             videoIframe.src = "https://ahvsh.com/e/j8dn0yl07xgf";
         }
+        else if(dayValue == "D3"){
+            videoIframe.src = "https://ahvsh.com/e/mzprybm6jg5a";
+        }
      
     }
     else
@@ -41,6 +47,9 @@ function updateVideo(){
         }
         else if(dayValue == "D2"){
             videoIframe.src = "https://sblona.com/e/xt80bc42hkwd";
+        }
+        else if(dayValue == "D3"){
+            videoIframe.src = "https://likessb.com/e/ozq9re6ogr63";
         }
         
     }
