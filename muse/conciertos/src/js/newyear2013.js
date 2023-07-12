@@ -15,15 +15,15 @@ function updateVideo(){
     if(partValue == "P1")
     {
         
-        source.setAttribute('src', 'http://2.56.10.141:3030/streamable/MuseNewYearLoveLive2013Parte1.mp4');
+        source.setAttribute('src', 'https://streaming.llposting.com/streamable/MuseNewYearLoveLive2013Parte1.mp4');
     }
     else if (partValue == "P2")
     {
-        source.setAttribute('src', 'http://2.56.10.141:3030/streamable/MuseNewYearLoveLive2013Parte2.mp4');
+        source.setAttribute('src', 'https://streaming.llposting.com/streamable/MuseNewYearLoveLive2013Parte2.mp4');
     }
     else
     {
-        source.setAttribute('src', 'http://2.56.10.141:3030/streamable/MuseNewYearLoveLive2013Parte3.mp4');
+        source.setAttribute('src', 'https://streaming.llposting.com/streamable/MuseNewYearLoveLive2013Parte3.mp4');
     }
 
     /*
