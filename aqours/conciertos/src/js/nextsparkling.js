@@ -27,12 +27,12 @@ function updateVideo(){
     else
     {
         if(partValue == "P1"){
-            source.setAttribute('src', 'http://2.56.10.141:3030/streamable/Aqours5thLoveLiveNextSPARKLINGDia2Parte1.mp4');
+            source.setAttribute('src', 'https://streaming.llposting.com/streamable/Aqours5thLoveLiveNextSPARKLINGDia2Parte1.mp4');
             //videoIframe.src = "https://filemoon.sx/e/c9j5wzfi6l1v/_LLP__Aqours_5th_LoveLive!__Next_SPARKLING!!__D_a_2_Parte_1";
         }
         else if(partValue == "P2")
         {
-            source.setAttribute('src', 'http://2.56.10.141:3030/streamable/Aqours5thLoveLiveNextSPARKLINGDia2Parte2.mp4');
+            source.setAttribute('src', 'https://streaming.llposting.com/streamable/Aqours5thLoveLiveNextSPARKLINGDia2Parte2.mp4');
             //videoIframe.src = "https://filemoon.sx/e/h08tx8ni7l9k/_LLP__Aqours_5th_LoveLive!__Next_SPARKLING!!__D_a_2_Parte_2";
         }
     }
