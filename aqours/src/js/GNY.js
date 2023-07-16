@@ -25,7 +25,7 @@ function updateVideo(){
             videoIframe.src = "https://filemoon.sx/e/3rbn8ecawxmx";
         }
         else if(dayValue == "D4"){
-            videoIframe.src = "https://filemoon.sx/d/8jnmot5glzls";
+            videoIframe.src = "https://filemoon.sx/e/8jnmot5glzls";
         }
   
     }
