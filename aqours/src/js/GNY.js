@@ -27,6 +27,9 @@ function updateVideo(){
         else if(dayValue == "D4"){
             videoIframe.src = "https://filemoon.sx/e/8jnmot5glzls";
         }
+        else if(dayValue == "D5"){
+            videoIframe.src = "https://filemoon.sx/e/g9zqulbwuy94";
+        }
   
     }
     else if(serverValue == "S2")
@@ -44,6 +47,9 @@ function updateVideo(){
         else if(dayValue == "D4"){
             videoIframe.src = "https://ahvsh.com/e/ltxadbgvqdsz";
         }
+        else if(dayValue == "D5"){
+            videoIframe.src = "https://ahvsh.com/e/liux87ss30tw";
+        }
      
     }
     else
@@ -59,6 +65,9 @@ function updateVideo(){
         }
         else if(dayValue == "D4"){
             videoIframe.src = "https://likessb.com/e/qoi67ln5om3z";
+        }
+        else if(dayValue == "D5"){
+            videoIframe.src = "https://likessb.com/e/9b9pef4hl5fv";
         }
     }
 
