@@ -2,7 +2,8 @@ var serverSelect = document.getElementById('select_server');
 var daySelect = document.getElementById('select_day');
 var videoIframe = document.getElementById('video_iframe');
 
-videoIframe.src = "https://filemoon.sx/e/ocmimfpzth80";
+videoIframe.src = "https://filemoon.sx/e/vlhpapaesn4b";
+
 
 
 serverSelect.addEventListener('change', updateVideo);
@@ -17,7 +18,7 @@ function updateVideo(){
     {
         
         if(dayValue == "D1"){
-            videoIframe.src = "https://filemoon.sx/e/ocmimfpzth80";
+            videoIframe.src = "https://filemoon.sx/e/vlhpapaesn4b";
         }
         else
         {
@@ -28,7 +29,7 @@ function updateVideo(){
     else if(serverValue == "S2")
     {
         if(dayValue == "D1"){
-            videoIframe.src = "https://ahvsh.com/e/5y1qat93ewiq";
+            videoIframe.src = "https://ahvsh.com/e/hp54l8dunofw";
         }
         else
         {
@@ -38,7 +39,7 @@ function updateVideo(){
     else
     {
         if(dayValue == "D1"){ 
-            videoIframe.src = "https://sblona.com/e/u9gchy0vw2rg.html";
+            videoIframe.src = "https://likessb.com/e/brrl7rax3auu";
         }
         else
         {
