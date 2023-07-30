@@ -3,7 +3,7 @@ var daySelect = document.getElementById('select_day');
 var partSelect = document.getElementById('select_part');
 var videoIframe = document.getElementById('video_iframe');
 
-videoIframe.src = "https://filemoon.sx/e/282qcs7w3qlw";
+videoIframe.src = "https://ahvsh.com/e/6ktd626p70rf";//https://filemoon.sx/e/282qcs7w3qlw
 
 
 
@@ -27,21 +27,17 @@ function updateVideo(){
                 videoIframe.src = "https://filemoon.sx/e/e7p0s0fs81g5";
             }
         }
-        /*else
+        else
         {
             
             if(partValue == "P1"){
-                videoIframe.src = "";
+                videoIframe.src = "https://ahvsh.com/e/6ktd626p70rf";
             }
             else if(partValue == "P2")
             {
-                videoIframe.src = "";
+                videoIframe.src = "https://ahvsh.com/e/v3onehqxw9u2";
             }
-            else
-            {
-                videoIframe.src = "";
-            }
-        }*/
+        }
     }
     else if(serverValue == "S2")
     {
@@ -56,21 +52,17 @@ function updateVideo(){
             }
 
         }
-        /*else
+        else
         {
             
             if(partValue == "P1"){
-                videoIframe.src = "";
+                videoIframe.src = "https://ahvsh.com/e/6ktd626p70rf";
             }
             else if(partValue == "P2")
             {
-                videoIframe.src = "";
+                videoIframe.src = "https://ahvsh.com/e/v3onehqxw9u2";
             }
-            else
-            {
-                videoIframe.src = "";
-            }
-        }*/
+        }
     }
     else
     {
@@ -84,21 +76,17 @@ function updateVideo(){
             }
 
         }
-        /*else
+        else
         {
             
             if(partValue == "P1"){
-                videoIframe.src = "";
+                videoIframe.src = "https://likessb.com/e/ilwkadvjm04v";
             }
             else if(partValue == "P2")
             {
-                videoIframe.src = "";
+                videoIframe.src = "https://likessb.com/e/qhph3tk2iwfj";
             }
-            else
-            {
-                videoIframe.src = "";
-            }
-        }*/
+        }
     }
 
     
