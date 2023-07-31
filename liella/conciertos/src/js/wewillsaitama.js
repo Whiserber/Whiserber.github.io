@@ -31,11 +31,11 @@ function updateVideo(){
         {
             
             if(partValue == "P1"){
-                videoIframe.src = "https://ahvsh.com/e/6ktd626p70rf";
+                videoIframe.src = "https://filemoon.sx/e/dexpq87chewn";
             }
             else if(partValue == "P2")
             {
-                videoIframe.src = "https://ahvsh.com/e/v3onehqxw9u2";
+                videoIframe.src = "https://filemoon.sx/e/ngxfp05m8b5x";
             }
         }
     }
