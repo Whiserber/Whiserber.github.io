@@ -3,8 +3,7 @@ var daySelect = document.getElementById('select_day');
 var partSelect = document.getElementById('select_part');
 var videoIframe = document.getElementById('video_iframe');
 
-videoIframe.src = "https://ahvsh.com/e/6ktd626p70rf";//https://filemoon.sx/e/282qcs7w3qlw
-
+videoIframe.src = "https://filemoon.sx/e/dexpq87chewn";
 
 
 serverSelect.addEventListener('change', updateVideo);
