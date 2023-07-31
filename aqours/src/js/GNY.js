@@ -57,7 +57,7 @@ function updateVideo(){
             videoIframe.src = "https://ahvsh.com/e/liux87ss30tw";
         }
         else if(dayValue == "D6"){
-            videoIframe.src = "https://filemoon.sx/e/88ghvukwttct";
+            videoIframe.src = "https://ahvsh.com/e/erlj2k9291eq";
         }
      
     }
