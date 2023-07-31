@@ -30,6 +30,9 @@ function updateVideo(){
         else if(dayValue == "D5"){
             videoIframe.src = "https://filemoon.sx/e/g9zqulbwuy94";
         }
+        else if(dayValue == "D5"){
+            videoIframe.src = "https://filemoon.sx/e/88ghvukwttct";
+        }
   
     }
     else if(serverValue == "S2")
@@ -50,6 +53,12 @@ function updateVideo(){
         else if(dayValue == "D5"){
             videoIframe.src = "https://ahvsh.com/e/liux87ss30tw";
         }
+        else if(dayValue == "D5"){
+            videoIframe.src = "https://ahvsh.com/e/liux87ss30tw";
+        }
+        else if(dayValue == "D6"){
+            videoIframe.src = "https://filemoon.sx/e/88ghvukwttct";
+        }
      
     }
     else
@@ -68,6 +77,9 @@ function updateVideo(){
         }
         else if(dayValue == "D5"){
             videoIframe.src = "https://likessb.com/e/9b9pef4hl5fv";
+        }
+        else if(dayValue == "D6"){
+            videoIframe.src = "https://likessb.com/e/zcvp9iwtafqt";
         }
     }
 
