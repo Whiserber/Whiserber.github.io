@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="../../src/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../src/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../src/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../src/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../../src/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <!-- CSS link -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="../../src/css/conciertosStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../src/css/normalize.css">
+    <link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css" rel="stylesheet">
+    <!--Set Theme--> 
+    <title>Love Live Posting</title>
+    <script>
+        // Render blocking JS:
+        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
+    </script>
+    
+</head>
+<body>
+    <!--  NAVBAR  -->
+    <header>
+        <a href="../../index" class="logo"><span>LLP!</span></a>
+        <p id="quote" class="quote""></p>
+        <ul class="navbar">
+            <li><a href="../../index">Inicio</a></li>
+            <li><a href="../../muse/index">µ's </a></li>
+            <li><a href="../../aqours/index" class="active">Aqours</a></li>
+            <li><a href="../../nijigasaki/index">Nijigasaki</a></li>
+            <li><a href="../../liella/index">Liella</a></li>
+            <li><a href="../../acercade">Acerca de LLP</a></li>
+            <li><a href="../../donaciones">Donar</a></li>
+        </ul>
+
+        <div class="theme-changer">
+            <label role="button" for="checkbox" class="switch">
+                <input type="checkbox" id="checkbox" />
+                <span class="switch__ball"></span>
+                <i class='bx bx-sun' ></i>
+                <i class='bx bx-moon' ></i>
+            </label>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+    <!--Navbar js link-->
+    <script type="text/javascript" src="../../src/js/navbar.js"></script>
+    <script type="text/javascript" src="../../src/js/quote.js"></script>
+    <!--  NAVBAR  -->
+
+    <!--MAIN-->
+    <main>
+        <div class="video-container">
+            <h1>Kobayashi Aika Birthday Report 2023</h1>
+            <div class="video-wrapper">
+                <video
+                    id="ll_test"
+                    class="video-js vjs-theme-fantasy vjs-16-9"
+                    controls
+                    preload="auto"
+                    width="640"
+                    height="264"
+                    data-setup="{}"
+                >
+                    <source src="https://streaming.llposting.com/streamable/AqoursClub2023KobayashiAikaBirthdayReport.mp4" type="video/mp4" />
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a
+                        web browser that
+                        <a href="https://videojs.com/html5-video-support/" target="_blank"
+                        >supports HTML5 video</a
+                        >
+                    </p>
+                </video>
+                <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+
+            </div>
+
+            <p>Puedes acceder al <a class="enlace" href="https://lovelive-aqoursclub.jp/mob/index.php?site=AC&ima=4836" target="_blank">Aqours Club 2023</a> comprando el siguiente set (hasta junio de 2024).</p>
+            <div class="compra-container">
+                <a href="https://www.amazon.co.jp/-/en/Aqours/dp/B0BY2BF98F/ref=sr_1_1?keywords=aqours+club+2023&s=music&sr=1-1" target="_blank">
+                    <img src="../../src/img/Amazon.co.jp.png" >
+                </a>
+                <a href="https://www.cdjapan.co.jp/product/LACM-24430" target="_blank">
+                    <img src="../../src/img/logo_cdj.png">
+                </a>
+            </div>
+
+            <h2>Descargas</h2>
+            <div class="descargas-container">
+                <a href="https://1drv.ms/f/s!Ase-O8o2EDWZgyxakePtLcZrdw2m" target="_blank" class="descargas">Onedrive</a>
+                <a href="" target="_blank" class="descargas">Torrent (No disponible)</a>
+            </div>
+
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                var disqus_config = function () {
+                this.page.url = window.location.href;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = window.location.href; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://llposting.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+        </div>
+    </main>
+    
+   
+    <script type="text/javascript" src="../../src/js/theme.js" defer></script>
+</body>
+</html>
