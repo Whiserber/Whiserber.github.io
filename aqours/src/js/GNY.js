@@ -90,6 +90,9 @@ function updateVideo(){
         else if(dayValue == "D7"){
             videoIframe.src = "https://likessb.com/e/zcvp9iwtafqt";
         }
+        else if(dayValue == "D8"){
+            videoIframe.src = "https://filemoon.sx/d/600frazrx2j4";
+        }
     }
 
     
