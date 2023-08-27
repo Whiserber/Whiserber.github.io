@@ -43,7 +43,7 @@ function updateVideo(){
             videoIframe.src = "https://filemoon.sx/e/buy1ej18idq0";
         }
         else if(dayValue == "D10"){
-            videoIframe.src = "https://filemoon.sx/d/jskjnsbe6tda";
+            videoIframe.src = "https://filemoon.sx/e/jskjnsbe6tda";
         }
   
     }
@@ -81,7 +81,7 @@ function updateVideo(){
             videoIframe.src = "https://filemoon.sx/e/buy1ej18idq0";
         }
         else if(dayValue == "D10"){
-            videoIframe.src = "https://filemoon.sx/d/jskjnsbe6tda";
+            videoIframe.src = "https://filemoon.sx/e/jskjnsbe6tda";
         }
      
     }
@@ -115,7 +115,7 @@ function updateVideo(){
             videoIframe.src = "https://filemoon.sx/e/buy1ej18idq0";
         }
         else if(dayValue == "D10"){
-            videoIframe.src = "https://filemoon.sx/d/jskjnsbe6tda";
+            videoIframe.src = "https://filemoon.sx/e/jskjnsbe6tda";
         }
     }
 
