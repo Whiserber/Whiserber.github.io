@@ -45,6 +45,9 @@ function updateVideo(){
         else if(dayValue == "D10"){
             videoIframe.src = "https://filemoon.sx/e/jskjnsbe6tda";
         }
+        else if(dayValue == "D11"){
+            videoIframe.src = "https://filemoon.sx/e/472gfp2xqun4";
+        }
   
     }
     else if(serverValue == "S2")
@@ -83,6 +86,9 @@ function updateVideo(){
         else if(dayValue == "D10"){
             videoIframe.src = "https://filemoon.sx/e/jskjnsbe6tda";
         }
+        else if(dayValue == "D11"){
+            videoIframe.src = "https://filemoon.sx/e/472gfp2xqun4";
+        }
      
     }
     else
@@ -116,6 +122,9 @@ function updateVideo(){
         }
         else if(dayValue == "D10"){
             videoIframe.src = "https://filemoon.sx/e/jskjnsbe6tda";
+        }
+        else if(dayValue == "D11"){
+            videoIframe.src = "https://filemoon.sx/e/472gfp2xqun4";
         }
     }
 
