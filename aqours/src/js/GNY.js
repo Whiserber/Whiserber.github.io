@@ -49,7 +49,7 @@ function updateVideo(){
             videoIframe.src = "https://filemoon.sx/e/472gfp2xqun4";
         }
         else if(dayValue == "D12"){
-            videoIframe.src = "https://filemoon.sx/d/omzz1qb3slmr";
+            videoIframe.src = "https://filemoon.sx/e/omzz1qb3slmr";
         }
   
     }
@@ -93,7 +93,7 @@ function updateVideo(){
             videoIframe.src = "https://filemoon.sx/e/472gfp2xqun4";
         }
         else if(dayValue == "D12"){
-            videoIframe.src = "https://filemoon.sx/d/omzz1qb3slmr";
+            videoIframe.src = "https://filemoon.sx/e/omzz1qb3slmr";
         }
      
     }
@@ -133,7 +133,7 @@ function updateVideo(){
             videoIframe.src = "https://filemoon.sx/e/472gfp2xqun4";
         }
         else if(dayValue == "D12"){
-            videoIframe.src = "https://filemoon.sx/d/omzz1qb3slmr";
+            videoIframe.src = "https://filemoon.sx/e/omzz1qb3slmr";
         }
     }
 
