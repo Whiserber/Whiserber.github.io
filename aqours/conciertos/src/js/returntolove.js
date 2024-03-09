@@ -40,4 +40,20 @@ function updateVideo(){
             }
         }
     }
+    else 
+    {
+        if(dayValue == "D2"){
+            if(partValue == "P1"){
+                videoIframe.src = "https://filemoon.sx/e/bl6g6ocu10fd";
+            }
+            else if(partValue == "P2")
+            {
+                videoIframe.src = "https://filemoon.sx/e/qwwco16bf3re";
+            }
+            else
+            {
+                videoIframe.src = "https://filemoon.sx/e/hzgox4e12z42";
+            }
+        }
+    }
 }
